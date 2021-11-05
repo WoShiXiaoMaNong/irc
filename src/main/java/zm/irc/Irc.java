@@ -7,18 +7,15 @@ import java.io.*;
 
 public class Irc {
 
-    public static void main(String[] args) throws IOException, InterruptedException {
+    public static void main(String[] args) throws IOException {
 
         String server = "irc.libera.chat";
-        String nick = "Zhong_Ming_test";
-        String login = "anyName";
-        String channel = "#zmtest";
+        String nick = "B_fd_test";
+        String channel = "#0dev";
 
         IrcClient client = new IrcClient(server,IrcClient.DEFAULT_PORT,nick);
         client.start();
         client.logon(nick);
-      //  Thread.sleep(3000);
-      //  client.join(channel);
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         while(true){
 

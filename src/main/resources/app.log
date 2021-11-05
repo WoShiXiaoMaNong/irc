@@ -160,3 +160,39 @@ java.lang.StringIndexOutOfBoundsException: begin 1, end -1, length 51
 [INFO][2021-11-05 16:30:43,419][java.lang.Class]Sender Thread started.
 [DEBUG][2021-11-05 16:33:23,833][zm.irc.message.receive.IrcReceiveMessage]PING message Received!
 [DEBUG][2021-11-05 16:33:23,834][zm.irc.message.processor.PingMessageProcessor]PONG message sent
+[INFO][2021-11-05 22:02:23,847][java.lang.Class]Start to connect IRC server(Server:irc.libera.chat, Port:6667)
+[INFO][2021-11-05 22:02:24,232][java.lang.Class]Listener Thread started.
+[INFO][2021-11-05 22:02:24,233][java.lang.Class]Sender Thread started.
+[DEBUG][2021-11-05 22:05:12,807][zm.irc.message.receive.IrcReceiveMessage]PING message Received!
+[DEBUG][2021-11-05 22:05:12,808][zm.irc.message.processor.PingMessageProcessor]PONG message sent
+[DEBUG][2021-11-05 22:07:40,806][zm.irc.message.receive.IrcReceiveMessage]PING message Received!
+[DEBUG][2021-11-05 22:07:40,806][zm.irc.message.processor.PingMessageProcessor]PONG message sent
+[DEBUG][2021-11-05 22:10:08,806][zm.irc.message.receive.IrcReceiveMessage]PING message Received!
+[DEBUG][2021-11-05 22:10:08,806][zm.irc.message.processor.PingMessageProcessor]PONG message sent
+[DEBUG][2021-11-05 22:12:36,773][zm.irc.message.receive.IrcReceiveMessage]PING message Received!
+[DEBUG][2021-11-05 22:12:36,773][zm.irc.message.processor.PingMessageProcessor]PONG message sent
+[INFO][2021-11-05 22:13:35,849][java.lang.Class]Start to connect IRC server(Server:irc.libera.chat, Port:6667)
+[INFO][2021-11-05 22:13:59,103][java.lang.Class]Start to connect IRC server(Server:irc.libera.chat, Port:6667)
+[INFO][2021-11-05 22:13:59,386][java.lang.Class]Listener Thread started.
+[INFO][2021-11-05 22:13:59,387][java.lang.Class]Sender Thread started.
+[DEBUG][2021-11-05 22:17:32,788][zm.irc.message.receive.IrcReceiveMessage]PING message Received!
+[DEBUG][2021-11-05 22:17:32,789][zm.irc.message.processor.PingMessageProcessor]PONG message sent
+[DEBUG][2021-11-05 22:20:00,790][zm.irc.message.receive.IrcReceiveMessage]PING message Received!
+[DEBUG][2021-11-05 22:20:00,790][zm.irc.message.processor.PingMessageProcessor]PONG message sent
+[INFO][2021-11-05 22:21:47,904][java.lang.Class]Start to connect IRC server(Server:irc.libera.chat, Port:6667)
+[INFO][2021-11-05 22:21:48,209][java.lang.Class]Listener Thread started.
+[INFO][2021-11-05 22:21:48,210][java.lang.Class]Sender Thread started.
+[INFO][2021-11-05 22:23:02,493][java.lang.Class]Start to connect IRC server(Server:irc.libera.chat, Port:6667)
+[INFO][2021-11-05 22:23:02,792][java.lang.Class]Listener Thread started.
+[INFO][2021-11-05 22:23:02,792][java.lang.Class]Sender Thread started.
+[INFO][2021-11-05 22:24:17,488][java.lang.Class]Start to connect IRC server(Server:irc.libera.chat, Port:6667)
+[INFO][2021-11-05 22:24:17,792][java.lang.Class]Listener Thread started.
+[INFO][2021-11-05 22:24:17,792][java.lang.Class]Sender Thread started.
+[DEBUG][2021-11-05 22:38:30,784][zm.irc.message.receive.IrcReceiveMessage]PING message Received!
+[DEBUG][2021-11-05 22:38:30,785][zm.irc.message.processor.PingMessageProcessor]PONG message sent
+[DEBUG][2021-11-05 22:40:58,781][zm.irc.message.receive.IrcReceiveMessage]PING message Received!
+[DEBUG][2021-11-05 22:40:58,781][zm.irc.message.processor.PingMessageProcessor]PONG message sent
+[DEBUG][2021-11-05 22:43:26,780][zm.irc.message.receive.IrcReceiveMessage]PING message Received!
+[DEBUG][2021-11-05 22:43:26,780][zm.irc.message.processor.PingMessageProcessor]PONG message sent
+[DEBUG][2021-11-05 22:45:54,783][zm.irc.message.receive.IrcReceiveMessage]PING message Received!
+[DEBUG][2021-11-05 22:45:54,783][zm.irc.message.processor.PingMessageProcessor]PONG message sent
