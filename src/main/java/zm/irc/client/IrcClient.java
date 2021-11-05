@@ -69,6 +69,7 @@ public class IrcClient {
                 while(msg != null){
                     onMessage(msg);
                     msg = reader.readLine();
+                    Thread.sleep(100);
                 }
             }catch (Exception e){
                 log.error("error",e);
@@ -83,6 +84,7 @@ public class IrcClient {
                     try{
                         if(msg == null){
                             msg = messagePendingSend.poll();
+                            Thread.sleep(100);
                             continue;
                         }
                         sendMessage(writer,msg);
