@@ -3,6 +3,10 @@ package zm.irc.message.processor;
 import zm.irc.client.IrcClient;
 import zm.irc.message.receive.IrcReceiveMessage;
 
+
+/**
+ * All message are will be processed by IMP-chain when they received.
+ */
 public interface IrcMessageProcessor {
 
     /**

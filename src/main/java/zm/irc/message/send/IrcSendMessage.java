@@ -13,6 +13,15 @@ public interface IrcSendMessage {
         if( msgStr.startsWith(IrcCommand.JOIN)){
             msg = new IrcJoinMessage();
             ((IrcJoinMessage)msg).setChannel(msgStr.split(" ")[1]);
+        }else if( msgStr.startsWith(IrcCommand.MSG)){
+            msg = new IrcMsgMessage();
+            ((IrcJoinMessage)msg).setChannel(msgStr.split(" ")[1]);
+        }else if( msgStr.startsWith(IrcCommand.NAMES)){
+            msg = new IrcNameMessage();
+            ((IrcNameMessage)msg).setChannel(msgStr.split(" ")[1]);
+        }else if( msgStr.startsWith(IrcCommand.PART)){
+            msg = new IrcPartMessage();
+            ((IrcPartMessage)msg).setChannel(msgStr.split(" ")[1]);
         }else{
             msg = new IrcChatMessage();
             ((IrcChatMessage)msg).setMsg(msgStr);
